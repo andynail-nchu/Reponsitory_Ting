@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    tools:context="com.example.android.navigation.ProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/profilePhoto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/profilePhoto_des"
+            android:src="@drawable/profile"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="Name"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/nicknameTitle"
+            app:layout_constraintEnd_toStartOf="@+id/nicknameTitle"
+            app:layout_constraintStart_toStartOf="@+id/profilePhoto"
+            app:layout_constraintTop_toBottomOf="@+id/profilePhoto"
+            app:layout_constraintVertical_chainStyle="spread" />
+
+        <TextView
+            android:id="@+id/nicknameTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="@string/nick_name"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            app:layout_constraintBottom_toBottomOf="@+id/nameTitle"
+            app:layout_constraintEnd_toEndOf="@+id/profilePhoto"
+            app:layout_constraintStart_toEndOf="@+id/nameTitle"
+            app:layout_constraintTop_toBottomOf="@+id/profilePhoto" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:text="Ting Chieh Chen"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/nameTitle"
+            app:layout_constraintStart_toStartOf="@+id/nameTitle"
+            app:layout_constraintTop_toBottomOf="@+id/nameTitle" />
+        <TextView
+            android:id="@+id/nicknameText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:text="TC Chen"
+            android:textAlignment="center"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/nicknameTitle"
+            app:layout_constraintStart_toStartOf="@+id/nicknameTitle"
+            app:layout_constraintTop_toBottomOf="@+id/nicknameTitle" />
+
+        <TextView
+            android:id="@+id/aboutMeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/horizontal_margin"
+            android:layout_marginTop="@dimen/vertical_margin"
+            android:layout_marginEnd="@dimen/horizontal_margin"
+            android:background="@color/colorPrimaryDark"
+            android:text="About me"
+            android:textAlignment="center"
+            android:textColor="@android:color/white"
+            android:textSize="34sp"
+            app:layout_constraintEnd_toEndOf="@+id/profilePhoto"
+            app:layout_constraintStart_toStartOf="@+id/profilePhoto"
+            app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="@+id/aboutMeTitle"
+            app:layout_constraintStart_toStartOf="@+id/aboutMeTitle"
+            app:layout_constraintTop_toBottomOf="@+id/aboutMeTitle">
+
+            <TextView
+                android:id="@+id/aboutMeText"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="@dimen/horizontal_margin"
+                android:layout_marginTop="@dimen/vertical_margin"
+                android:layout_marginEnd="@dimen/horizontal_margin"
+                android:text="I come from Taichung, and like puzzle games, board games, and be used to playing badminton."
+                android:textAlignment="center"
+                android:textSize="24sp"
+                app:layout_constraintEnd_toEndOf="@+id/profilePhoto"
+                app:layout_constraintStart_toStartOf="@+id/profilePhoto"
+                app:layout_constraintTop_toBottomOf="@+id/nameText" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
