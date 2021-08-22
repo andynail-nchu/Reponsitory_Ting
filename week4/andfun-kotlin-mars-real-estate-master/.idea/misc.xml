@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/TC/AndroidStudioProjects/andfun-kotlin-mars-real-estate-master/app/src/main/res/layout/activity_main.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/TC/AndroidStudioProjects/andfun-kotlin-mars-real-estate-master/app/src/main/res/layout/fragment_detail.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/TC/AndroidStudioProjects/andfun-kotlin-mars-real-estate-master/app/src/main/res/layout/fragment_overview.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/TC/AndroidStudioProjects/andfun-kotlin-mars-real-estate-master/app/src/main/res/layout/grid_view_item.xml" value="0.27395833333333336" />
+        <entry key="..\:/Users/TC/AndroidStudioProjects/andfun-kotlin-mars-real-estate-master/app/src/main/res/menu/overflow_menu.xml" value="0.27395833333333336" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
